@@ -1,6 +1,6 @@
 # Deploy a Production Ready Kubernetes Cluster using Role of AWX 
 prrequests : 
-# 1- AWX VM : 
+### 1- AWX VM : 
 ✅Step 1: Install Required Packages (CentOS)
 sudo dnf update -y
 sudo dnf install -y git make curl wget
@@ -89,11 +89,11 @@ kubectl get secret awx-centos-admin-password -o jsonpath="{.data.password}" -n a
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9dcb74c-1c28-4b79-8d12-8b11f718ffff" />
 
-# 2-  Master " 192.168.142.173" & 192.168.142.174 Workers
+### 2-  Master " 192.168.142.173" & 192.168.142.174 Workers
 SSH access between AWX " 12.168.142.169" and nodes
 Passwordless sudo
 
-# 3- STEP-BY-STEP – Use Kubespray in AWX
+### 3- STEP-BY-STEP – Use Kubespray in AWX
 
 1️⃣ Clone Kubespray
 
